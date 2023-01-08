@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    xborder: solid red 1px;
+  }
+  ::selection {
+    background: #c3ec12;
+    color: #000;
+  }
+  html {
+    font-family: Inter;
+    letter-spacing: -0.04em;
+  }
+  body {
+    background-color: #121212;
+    color: #ffffff;
+    font-size: 0.6vw;
+    //text-transform: uppercase;
+    sborder: solid red 1px;
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: "Inter";
+    src: url("./assets/fonts/Inter.ttf");
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap");
+}
+
+@layer components {
+  html {
+    @apply scroll-smooth;
+  }
+  h1 {
+    @apply font-inter text-8v leading-heading tracking-tightest font-normal;
+  }
+  h2 {
+    @apply font-inter text-7v leading-heading tracking-tightest font-normal;
+  }
+  h3 {
+    @apply font-monument text-6s leading-heading;
+  }
+  h4 {
+    @apply font-monument text-6s leading-heading;
+  }
+  a {
+    @apply font-inter text-6s leading-heading tracking-tightest font-normal;
+  }
+  .section-container {
+    @apply p-7s h-full rounded-3xl;
+  }
+  .section-wrapper {
+    @apply p-6s;
+  }
+}

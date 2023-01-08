@@ -1,0 +1,71 @@
+<main class="flex h-screen ">
+
+  <div
+    class="w-1/2 bg-primary   flex flex-col justify-between text-primaryLight "
+  >
+    <div class="h-[40%] pt-[32px] px-[32px]">
+      <h1 class="">
+        Carolino Villarta Jr. Visual Designer — <span
+          class="font-italic italic ">based</span
+        > in Cebu, Ph.
+      </h1>
+    </div>
+
+    <div
+      class="text-6s font-normal	tracking-tightest flex justify-between h-[20%] items-center  px-[32px]"
+    >
+      <p class="">January 2023</p>
+      <p class="">— Available for freelance work</p>
+    </div>
+    <div
+      class="h-[40%] w-[85%] bg-accent px-[32px] py-[32px] flex flex-col justify-between"
+    >
+      <h2 class="text-accentLight">
+        I focused on designing digital experience on both web and mobile
+        applications.
+      </h2>
+      <div class="text-accentLight flex justify-between items-center">
+        <a href="/">Know Me More</a>
+        <a href="/"><img src={arrow} alt="" srcset="" /></a>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="w-1/2 bg-background flex flex-col justify-between px-[32px] py-[32px]"
+  >
+    <nav class="flex justify-between pb-0 text-light  h-[15%] ">
+      <div><a href="/">All Works (6)</a></div>
+      <div><a href="/">Contact</a></div>
+    </nav>
+    <div class=" h-[60%] flex justify-center items-center text-light">
+      <div class="h-full p-5s relative  flex justify-center w-[57%]">
+        <div
+          class=" aspect-[4/5] h-full p-7s bg-primary hover:-rotate-12 ease-out duration-300"
+        >
+          <div class="overflow-hidden select-none">
+            <img
+              class="h-full aspect-[4/5] object-cover "
+              src={featured1}
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="absolute bottom-0 left-0 w-full  flex justify-between">
+          <h2>Teeraco</h2>
+          <h2>— 2022</h2>
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-between items-end h-[15%]">
+      <div class="text-darkLight ">
+        <a href="/"
+          ><h1>Featured <span class="font-italic italic ">work</span></h1>
+        </a>
+      </div>
+      <div class="">
+        <a href="/"><img src={arrowDown} alt="" srcset="" /></a>
+      </div>
+    </div>
+  </div>
+</main>
